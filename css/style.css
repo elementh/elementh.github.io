@@ -2,10 +2,7 @@ body {
     margin: auto;
     background-color: #FDFDFD;
     font-family: 'Roboto', sans-serif;
-}
-header {
     max-width: 600px;
-    margin: auto;
 }
 nav {
     text-align: center;
@@ -20,12 +17,8 @@ nav ul li {
     margin: 5px;
     padding: 5px;
     display: inline;
-    list-style-position: inside;
-    /*border: 1px solid #EAEAEA;*/
-}
-nav ul li a {
-    padding: 0px;
-    width: 100%;
+  list-style-position: inside;
+    border: 1px solid #EAEAEA;
 }
 
 /* LINKS ON NAV*/
@@ -34,17 +27,11 @@ nav ul li a {
     color: #f44336;
     text-decoration: none;
 }
-#container {
-    width: 75%;
-    margin: auto;
-}
+
 #navBar-wrapper {
     width: 100%;
     min-height: 350px;
     height: 15%;
-}
-#nameAvatar {
-    display: inline;
 }
 #name {
     color: white;
