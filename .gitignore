@@ -6,7 +6,7 @@ fonts
 # =========================
 
 .idea
-elementh.github.io.iml
+*.iml
 
 # =========================
 # Operating System Files

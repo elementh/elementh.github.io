@@ -28,11 +28,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-#navBar-wrapper {
-    width: 100%;
-    min-height: 350px;
-    height: 15%;
-}
+
 #name {
     color: white;
 }
@@ -87,4 +83,14 @@ nav ul li a {
 
 /* NO MORE OCTOCAT STYLE */
 
-@media (width)
+
+#b1 { background: hsl(0, 50%, 50%); }
+#b2 { background: hsl(30, 50%, 50%); }
+#b3 { background: hsl(60, 50%, 50%); }
+#b4 { background: hsl(90, 50%, 50%); }
+#b5 { background: hsl(120, 50%, 50%); }
+#b6 { background: hsl(150, 50%, 50%); }
+#b7 { background: hsl(180, 50%, 50%); }
+#b8 { background: hsl(210, 50%, 50%); }
+#b9 { background: hsl(240, 50%, 50%); }
+#b10 { background: hsl(270, 50%, 50%); }
