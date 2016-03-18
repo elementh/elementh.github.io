@@ -2,11 +2,14 @@
 
 Hello there, this is the repository of my personal website, yep, it's hosted here in Github, check it out: <a href="https://pages.github.com/">GitHub Pages</a>.
 
-There isn't anything really interesting about this, just plain **noob** coding <span class='icon icon-octoface'></span>.
+There isn't anything really interesting about this, just plain **noob** coding.
+
+<img src="repoImages/actualstate.png" alt="Actual state of the site" />
+
 
 ## Status
 
-broken.
+In development
 
 ## License
 
