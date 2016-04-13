@@ -1,1 +1,1 @@
-//TODO everything
+"use strict";
