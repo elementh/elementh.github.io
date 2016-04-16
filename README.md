@@ -1,4 +1,4 @@
-# <a href="https://lucasmarino.me">elementh.github.io</a>
+# <a href="http://lucasmarino.me">elementh.github.io</a>
 
 Hello there, this is the repository of my personal website, yep, it's hosted here in Github, check it out: <a href="https://pages.github.com/">GitHub Pages</a>.
 
@@ -15,7 +15,7 @@ In development
 
 The MIT License (MIT)
 
-Copyright (c) 2016 <a href="https://lucasmarino.me">Lucas Maximiliano Marino</a>
+Copyright (c) 2016 <a href="http://lucasmarino.me">Lucas Maximiliano Marino</a>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
