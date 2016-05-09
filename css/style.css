@@ -1,69 +1,80 @@
+/* =================== BODY ================== */
 body {
   margin: auto;
   background-color: #FDFDFD;
-  font-family: 'Roboto', sans-serif;
   max-width: 600px;
-}
-a {
-  color: #f44336;
-  text-decoration: none;
-}
-a:hover {
-  color: #e53935;
-  text-decoration: underline;
-}
-nav {
-  text-align: center;
-  padding: 0.3em 0;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-nav ul li {
-  margin: 5px;
-  padding: 5px;
-  display: inline;
-  list-style-position: inside;
-  border: 1px solid #EAEAEA;
-}
-/* LINKS ON NAV*/
-/*
-nav ul li a {
-    color: #f44336;
-    text-decoration: none;
-}*/
-#introduction {
-  text-justify: distribute;
-}
-#name {
-  color: white;
-}
-.center {
+  /*CENTER*/
   width: 100%;
   margin: auto;
   text-align: center;
+  /*TEXT*/
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
 }
+/* =========================================== */
+/* ================== HEADER ================= */
 .avatar {
   margin: 1em;
   border-radius: 50%;
   max-width: 35%;
   max-height: 35%;
 }
-.transparent {
-  background-color: transparent;
+
+.short-description {
+  font-style: italic;
 }
-.grey-text {
-  color: #212121;
+/* =========================================== */
+/* ================== CONTACT ================ */
+.contact-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.red {
-  background-color: #f44336;
+
+.contact-links li {
+  margin: 5px;
+  padding: 5px;
+  display: inline;
+  list-style-position: inside;
 }
-.red-text {
+
+.contact-links li a {
+  color: inherit;
+  text-decoration: none;
+}
+.contact-links li a:hover {
+  color: #424242;
+}
+/* =========================================== */
+/* ==================== HR =================== */
+hr {
+  height: 2px;
   color: #f44336;
+  background: #f44336;
+  font-size: 0;
+  border: 0;
 }
-/* OCTOCAT STYLE */
+/* =========================================== */
+/* ================== LINKS ================== */
+a {
+  color: #f44336;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e53935;
+  text-decoration: underline;
+}
+/* =========================================== */
+/* ============= FORK ME ON GITHUB =========== */
+.octicon {
+  color: #FDFDFD;
+  position: fixed;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
 }
@@ -72,10 +83,12 @@ nav ul li a {
   100% {
     transform: rotate(0);
   }
+
   20%,
   60% {
     transform: rotate(-25deg);
   }
+
   40%,
   80% {
     transform: rotate(10deg);
@@ -85,81 +98,9 @@ nav ul li a {
   .github-corner:hover .octo-arm {
     animation: none;
   }
+
   .github-corner .octo-arm {
     animation: octocat-wave 560ms ease-in-out;
   }
 }
-/* NO MORE OCTOCAT STYLE */
-/*CONSOLE TRIGGER*/
-#terminalTrigger {
-  display: none;
-  position: fixed;
-  top: 0;
-  border: 0;
-  left: 0;
-  margin: 1em;
-}
-#octicon {
-  color: #FDFDFD;
-  position: fixed;
-  top: 0;
-  border: 0;
-  right: 0;
-}
-/*CONSOLE STYLE */
-#terminal {
-  display: none;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-}
-#terminal input[type=text] {
-  color: #9e9e9e;
-  background-color: inherit;
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 2px solid #9e9e9e;
-  display: inline;
-}
-#terminal input[type=text]:focus {
-  color: #f44336;
-  border-bottom: 2px solid #212121;
-}
-#terminal input[type=text]:hover {
-  color: #f44336;
-  border-bottom: 2px solid #212121;
-}
-//OTHERS
-#b1 {
-  background: hsl(0, 50%, 50%);
-}
-#b2 {
-  background: hsl(30, 50%, 50%);
-}
-#b3 {
-  background: hsl(60, 50%, 50%);
-}
-#b4 {
-  background: hsl(90, 50%, 50%);
-}
-#b5 {
-  background: hsl(120, 50%, 50%);
-}
-#b6 {
-  background: hsl(150, 50%, 50%);
-}
-#b7 {
-  background: hsl(180, 50%, 50%);
-}
-#b8 {
-  background: hsl(210, 50%, 50%);
-}
-#b9 {
-  background: hsl(240, 50%, 50%);
-}
-#b10 {
-  background: hsl(270, 50%, 50%);
-}
+/* =========================================== */
