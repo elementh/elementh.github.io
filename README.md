@@ -6,11 +6,6 @@ There isn't anything really interesting about this, just plain **noob** code.
 
 <img src="screenshots/actualstate.png" alt="Actual state of the site" />
 
-
-## Status
-
-In development
-
 ## License
 
 The MIT License (MIT)
