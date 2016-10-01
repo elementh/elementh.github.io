@@ -66,6 +66,10 @@ a:hover {
   color: #e53935;
   text-decoration: underline;
 }
+.location {
+  color: #212121;
+  font-style: italic;
+}
 /* =========================================== */
 /* ============= FORK ME ON GITHUB =========== */
 .octicon {

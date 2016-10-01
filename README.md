@@ -4,8 +4,6 @@ Hello there, this is the repository of my personal website, yep, it's hosted her
 
 There isn't anything really interesting about this, just plain **noob** code.
 
-<img src="screenshots/actualstate.png" alt="Actual state of the site" />
-
 ## License
 
 The MIT License (MIT)
