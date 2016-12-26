@@ -17,7 +17,11 @@ body{
 /* HEADER */
 header{
   order: 1;
+  color: #0091ea;
   margin-top: 5rem;
+}
+header h1:hover{
+  animation: hue 1.5s linear infinite;
 }
 .avatar{
   margin: 1rem;
@@ -45,9 +49,9 @@ nav{
   text-decoration: none;
 }
 .contact li a:hover i{
-  /*color: #424242;*/
   animation: hue 1.5s linear infinite;
 }
+
 /* SEcTIONS */
 .project{
   order: 3;
@@ -55,11 +59,26 @@ nav{
 .hackathon{
   order: 4;
 }
+
 /* FOOTER */
 footer{
   order: 5;
 }
 
+/* LINNKS */
+a {
+  color: #0091ea;
+  text-decoration: none;
+}
+
+a:hover {
+  animation: hue 1.5s linear infinite;
+  text-decoration: underline;
+}
+.location {
+  color: #212121;
+  font-style: italic;
+}
 /* ANIMATIONS */
 @keyframes hue {
   0% {color: hsl(0, 50%, 50%);}
@@ -73,3 +92,41 @@ footer{
   80% {color: hsl(240, 50%, 50%);}
   90% {color: hsl(270, 50%, 50%);}
 }
+
+/* ============= FORK ME ON GITHUB =========== */
+.octicon {
+  color: hsla(40, 4%, 95%, 1);
+  position: fixed;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+/* =========================================== */
