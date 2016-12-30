@@ -83,8 +83,14 @@ a:hover {
   text-decoration: underline;
 }
 .location {
-  color: #212121;
+  color: hsla(0, 0%, 13%, 1);
   font-style: italic;
+}
+.location+i{
+  color: hsla(203, 100%, 46%, 1);
+}
+.location+i:hover{
+  animation: hue 1.5s linear infinite;
 }
 /* ANIMATIONS */
 @keyframes hue {
@@ -98,6 +104,21 @@ a:hover {
   70% {color: hsla(210, 50%, 50%, 1);}
   80% {color: hsla(240, 50%, 50%, 1);}
   90% {color: hsla(270, 50%, 50%, 1);}
+  100% {color: hsla(0, 50%, 50%, 1);}
+
+}
+@keyframes hue-fill {
+  0% {fill: hsla(0, 50%, 50%, 1);}
+  10% {fill: hsla(30, 50%, 50%, 1);}
+  20% {fill: hsla(60, 50%, 50%, 1);}
+  30% {fill: hsla(90, 50%, 50%, 1);}
+  40% {fill: hsla(120, 50%, 50%, 1);}
+  50% {fill: hsla(150, 50%, 50%, 1);}
+  60% {fill: hsla(180, 50%, 50%, 1);}
+  70% {fill: hsla(210, 50%, 50%, 1);}
+  80% {fill: hsla(240, 50%, 50%, 1);}
+  90% {fill: hsla(270, 50%, 50%, 1);}
+  100% {fill: hsla(0, 50%, 50%, 1);}
 }
 
 /* ============= FORK ME ON GITHUB =========== */
@@ -107,9 +128,13 @@ a:hover {
   top: 0;
   border: 0;
   right: 0;
+  fill:hsla(203, 100%, 46%, 1);
 }
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
+}
+.github-corner:hover .octicon {
+  animation: hue-fill 1.5s linear infinite;
 }
 @keyframes octocat-wave {
   0%,
