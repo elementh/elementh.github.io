@@ -1,0 +1,25 @@
+{
+  "name": "elementh.github.io",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Lucas Maximiliano Marino, web developer, student and hackathon lover",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "node-sass -w scss/main.scss public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elementh/elementh.github.io.git"
+  },
+  "author": "Lucas Maximiliano Marino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elementh/elementh.github.io/issues"
+  },
+  "homepage": "https://github.com/elementh/elementh.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.1.1",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
