@@ -2473,6 +2473,10 @@ body {
   justify-content: center;
   margin: auto; }
 
+footer {
+  text-align: center;
+  order: 999; }
+
 /*
  * HEADER
  */
