@@ -1,0 +1,21 @@
+#content{
+  order: 2;
+  @include column;
+  justify-content: center;
+  background: $primary-color;
+  color: $whitesmokedarker;
+  div{
+    @include column;
+    justify-content: center;
+    text-align: justify;
+    max-width: 700px;
+    margin: auto;
+    h1 {
+      text-align: center;
+    }
+  }
+  div:after{
+    content: '';
+    padding-bottom: 4rem;
+  }
+}

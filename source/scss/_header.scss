@@ -1,0 +1,50 @@
+/*
+ * HEADER
+ */
+header {
+  @include row;
+  order: 1;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  max-width: 900px;
+  text-align: center;
+  #avatar{
+    order: 1;
+    margin: 1rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10%;
+  }
+  #avatar:hover{
+    animation: hue-rotate 1.5s linear infinite;
+  }
+  span{
+    order: 2;
+    @include column;
+    margin-top: 1.5rem;
+    h1{
+      order: 1;
+      color: $link-color;
+      margin-bottom: 0;
+    }
+    h2{
+      order: 2;
+      color: $secondary-color;
+      font-style: italic;
+    }
+    nav{
+      order: 3;
+      text-align: center;
+      list-style: none;
+      margin: 1rem;
+      padding: 0;
+      li {
+        margin: 0.5rem;
+        @include button;
+        display: inline;
+        list-style-position: inside;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, user-scalable=0, initial-scale=1')
+    block title
+      title Lucas Maximiliano Marino
+    block meta
+      meta(name='description', content='Lucas Maximiliano Marino — web developer, student and hackathon lover')
+    meta(name='theme-color', content='#253137')
+    block style
+      link(href='css/index.css', rel='stylesheet', type='text/css')
+  body
+    include githubcorner.pug
+    include header.pug
+    div#content
+      div
+        block sectiontitle
+        block content
+    block mainjs
+      script(src='js/main.js')
