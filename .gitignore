@@ -1,6 +1,8 @@
 # Others
 .env
-
+images
+index_deprecated.html
+style_deprecated.css
 # IntelliJ
 .idea
 
