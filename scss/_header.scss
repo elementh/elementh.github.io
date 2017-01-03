@@ -33,7 +33,7 @@ header {
       margin: 1rem;
       padding: 0;
       li {
-        margin: 1rem;
+        margin: 0.5rem;
         @include button;
         display: inline;
         list-style-position: inside;
