@@ -1,3 +1,4 @@
+
 {
   "name": "elementh.github.io",
   "private": true,
@@ -6,7 +7,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch-css": "node-sass -w scss/main.scss public/css/style.css"
+    "watch-css": "node-sass -w source/scss/ --output css/",
+    "watch-pug": "pug -w -P b source/templates --out ./"
   },
   "repository": {
     "type": "git",
