@@ -1,0 +1,23 @@
+//FONT
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import 'mixins';
+@import 'variables';
+@import 'links';
+
+@import 'body';
+@import 'header';
+
+.contact{
+  order: 2;
+}
+.project{
+  order: 3;
+}
+.hackathon{
+  order: 4;
+}
+
+@import 'animations';
+@import 'githubcorner';
+
+@import 'font-awesome/font-awesome';

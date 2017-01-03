@@ -1,0 +1,37 @@
+@mixin column{
+  display: flex;
+  flex-flow: column;
+}
+@mixin row{
+  display: flex;
+  flex-flow: row;
+}
+@mixin non-selectable {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+@mixin border{
+  padding: .2em .25em .15em;
+  border: solid .08em $link-color;
+  border-radius: .2em;
+}
+@mixin button{
+  @include non-selectable;
+  @include border;
+  a{
+    padding: .2em .25em .15em;
+  }
+  &:hover{
+    animation: hue-background 1.5s linear infinite;
+    border-color: transparent;
+    a{
+      color: $whitesmokedarker;
+    }
+    a:hover{
+      text-decoration: none;
+      animation: none;
+    }
+  }
+}
