@@ -2562,19 +2562,12 @@ header {
     content: '';
     padding-bottom: 4rem; }
 
-#projects-button {
-  -webkit-user-select: none;
-  /* Chrome all / Safari all */
-  -moz-user-select: none;
-  /* Firefox all */
-  -ms-user-select: none;
-  /* IE 10+ */
-  user-select: none;
-  /* Likely future */
-  padding: .2em .25em .15em;
-  border: solid 0.1em #0091eb;
-  border-radius: .2em;
-  background: #0091eb;
-  border-color: transparent; }
-  #projects-button a {
-    color: #f3f2f2; }
+#content div {
+  display: flex;
+  flex-flow: column; }
+  #content div h1 {
+    margin-bottom: 0; }
+  #content div h4 {
+    font-style: italic;
+    margin: 0;
+    text-align: center; }

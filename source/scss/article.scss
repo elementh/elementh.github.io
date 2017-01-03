@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import 'mixins';
+@import 'variables';
+@import 'links';
+@import 'animations';
+@import 'githubcorner';
+@import 'font-awesome/font-awesome';
+@import 'body';
+@import 'header';
+@import 'content';
+
+#content{
+  div{
+    @include column;
+    h1{
+      margin-bottom: 0;
+    }
+    h4{
+      font-style: italic;
+      margin: 0;
+      text-align: center;
+    }
+  }
+}
