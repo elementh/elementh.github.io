@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Raleway:300,400');
 @import 'mixins';
 @import 'variables';
 @import 'links';
@@ -9,16 +9,53 @@
 @import 'header';
 @import 'content';
 
-#content{
-  div{
-    @include column;
-    h1{
-      margin-bottom: 0;
-    }
-    h4{
-      font-style: italic;
-      margin: 0;
-      text-align: center;
-    }
+article{
+  color: $whitesmokedarker;
+  h1{
+    margin-bottom: 0;
+    font-size: 300%;
+  }
+  h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: $almostwhite;
+    text-transform: uppercase;
+  }
+  h4{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    color: $whitesmokeevenmoredarker;
+    font-style: italic;
+    margin-top: 0;
+    text-align: center;  
+  }
+  p{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 300;
+    margin: 1rem 0 1rem;
+  }
+  cite{
+    margin: 1rem;
+  }
+  cite:before{
+    content: open-quote;
+    font-size: 120%;
+    line-height: 0;
+  }
+  cite:after{
+    content: close-quote;
+    font-size: 120%;
+    line-height: 0;
+  }
+  .cite-author{
+    text-align: right;
+  }
+  .bold{
+    font-weight: bold;
+    color: $almostwhite
+  }
+  .italic{
+    font-style: italic;
+    color: $almostwhite
   }
 }

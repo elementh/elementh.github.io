@@ -23,16 +23,24 @@
   a{
     padding: .2em .25em .15em;
   }
+  a:hover{
+    text-decoration: none;
+    animation: none;
+  }
+  // &:focus {
+  //   animation: hue-color 1.5s linear infinite;
+  //   border-color: transparent;
+  // }
   &:hover{
     animation: hue-background 1.5s linear infinite;
     border-color: transparent;
     a{
       color: $whitesmokedarker;
     }
-    a:hover{
-      text-decoration: none;
-      animation: none;
-    }
+  }
+  a:focus{
+    text-decoration: none;
+    animation: none;
   }
 }
 @mixin buttonfull{

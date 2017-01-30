@@ -16,9 +16,8 @@ html
     include articleheader.pug
     div#content
       div
-        block articltitle
-        block articledate
-        block content
+        article
+          block content
     include footer.pug
     block mainjs
       script(src='../js/main.js')

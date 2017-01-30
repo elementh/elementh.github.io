@@ -1,0 +1,81 @@
+extends ../../partials/articlelayout.pug
+block title
+  - var title = "Using GPG key pairs";
+  title #{title} — Lucas Maxiimiliano Marino
+
+block content
+  h1 #{title.toUpperCase()}
+  h4 Wednesday, January 4 2017
+  h2 Introduction
+  p
+    | I want to begin this article stating that I'm not a cryptography professional nor a developer focused on cryptography. I'm just a guy who values his privacy and just wants others to understand (and maybe use!) GPG in a more or less secure and correct way.
+  p
+    | GnuPG (GPG) stands for 
+    span.italic GNU Privacy Guard
+    |  and is a free implementation of the 
+    a(href='https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP') OpenPGP 
+    |  standard. It's used as a command line utility which 
+    a(href='https://alexcabal.com/getting-traction-for-privacy-focused-projects-or-security-never-sells/') may note be pretty
+    |  but it's not that hard to use. 
+  p 
+    | Even if you have nothing to hide, using encryption helps protect the privacy of people you communicate with, and makes life difficult for bulk surveillance systems.
+  h2 What can we do with it?
+  p
+    | We can use GPG keys for 
+    span.bold sign
+    |  and 
+    span.bold encrypt
+    |  messages or files.
+  p
+    | By signing a message or a file other users can validate that it's from us and hasn't been tampered.
+  p
+    | We may encrypt it with a public key and it will require it's matching private key to decrypt. This way we can exchange information securely over the internet.
+  p
+    | We can also 
+    span.bold revoke
+    |  a key with a 
+    span.bold revoke certificate
+    | , telling the world that the matching private key has been leaked or stolen and it's not longer secure, by doing it we destroy all the trust accumulated in that key pair.
+  h2 Trust
+  p
+    | In cryptography there is a thing caled 
+    span.italic trust
+    |  or 
+    span.italic web of trust
+    | , a concept we use to establish the authenticity of the binding between a public key and it's owner. In GPG trust can described this way:
+  p
+    cite
+      | As time goes on, you will accumulate keys from other people that you may want to designate as trusted introducers. Everyone else will each choose their own trusted introducers. And everyone will gradually accumulate and distribute with their key a collection of certifying signatures from other people, with the expectation that anyone receiving it will trust at least one or two of the signatures. This will cause the emergence of a decentralized fault-tolerant web of confidence for all public keys.
+    |  
+    br
+    span.cite-author — Phil Zimmermann, 1992
+  p  Trust is like reputation, you gain it every time someone signs your key.
+  p  We will explain how to properly sign and exchanges keys later.
+  h2 Masterkeys and Subkeys
+  p
+    | As we said before, by revoking a key you render it useless in the way that no one will trust that key anymore, and all the trust accumulated by having other people signing the key will be lost...how can we prevent the lost of trust in us when a private key is stolen/leaked? The answer is `subkeys`.
+  p
+    | A 
+    span.bold masterkey
+    |  and a 
+    span.bold subkey
+    |  are equal in the way that both of them are the same kind of key and can be used for signing and encryption, the difference is that a subkey is 
+    span.italic bounded
+    |  to a masterkey. Subkeys are like a separate key pair which is automatically associated with your main (master) key pair.
+  p
+    | Subkeys are useful because we can store them separately from it's masterkey and also becuase they can be revoked independtly of them. This last feature is really useful because we can collect trust and not lose it if a subkey (which is the one we are actually gonna use) is stolen or leaked!
+  p
+    | We can issue a 
+    span.bold revoke certificate
+    |  for a subkey and leave our masterkey as it was and prevent the lose of all our reputation.
+  h2 Further Reading
+  p
+    a(href='') Alex Cabal, Creating the perfect GPG keypair
+  p
+    a(href='') Debian Wiki, Subkeys
+  p
+    a(href='') Wikipedia, Web of trust
+  p
+    a(href='')
+  p
+    a(href='')

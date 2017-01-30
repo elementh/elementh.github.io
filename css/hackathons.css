@@ -8,6 +8,10 @@ a:hover {
   animation: hue-color 1.5s linear infinite;
   text-decoration: underline; }
 
+a:focus {
+  animation: hue-color 1.5s linear infinite;
+  text-decoration: underline; }
+
 @keyframes hue-color {
   0% {
     color: #bf4040; }
@@ -99,7 +103,7 @@ a:hover {
 
 .octicon {
   color: #f3f2f2;
-  position: fixed;
+  position: absolute;
   top: 0;
   border: 0;
   right: 0;
@@ -2486,7 +2490,7 @@ header {
   order: 1;
   margin: auto;
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   max-width: 900px;
   text-align: center; }
   header #avatar {
@@ -2533,14 +2537,17 @@ header {
         list-style-position: inside; }
         header span nav li a {
           padding: .2em .25em .15em; }
+        header span nav li a:hover {
+          text-decoration: none;
+          animation: none; }
         header span nav li:hover {
           animation: hue-background 1.5s linear infinite;
           border-color: transparent; }
           header span nav li:hover a {
             color: #f3f2f2; }
-          header span nav li:hover a:hover {
-            text-decoration: none;
-            animation: none; }
+        header span nav li a:focus {
+          text-decoration: none;
+          animation: none; }
 
 #content {
   order: 2;
@@ -2554,6 +2561,7 @@ header {
     flex-flow: column;
     justify-content: center;
     text-align: justify;
+    min-width: 700px;
     max-width: 700px;
     margin: auto; }
     #content div h1 {
