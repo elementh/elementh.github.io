@@ -14,6 +14,12 @@ body{
   flex-flow: column;
   color: hsla(0, 0%, 13%, 1);
 }
+.manifesto {
+  text-align: justify;
+}
+.manifesto h1 {
+  text-align: center;
+}
 /* HEADER */
 header{
   order: 1;
