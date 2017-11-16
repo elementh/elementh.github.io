@@ -26,7 +26,7 @@ header{
   margin-top: 5rem;
 }
 header h1{
-  color: hsla(203, 100%, 46%, 1);
+  color: hsla(0, 50%, 50%, 1);
   margin-bottom: 0;
 }
 header h1:hover{
@@ -36,15 +36,17 @@ header h2{
   font-style: italic;
 }
 .avatar{
-  margin: 1rem;
-  width: 15rem;
+  margin: 1.5rem;
+  margin-top: 0;
+  width: 26.6rem;
   height: 15rem;
-  border-radius: 10%;
+  border-radius: 1rem;
 }
+
 /* NAV */
 nav{
   order: 2;
-  color: hsla(203, 100%, 46%, 1);
+  color: hsla(0, 50%, 50%, 1);
 }
 .contact{
   list-style: none;
@@ -80,7 +82,7 @@ footer{
 
 /* LINNKS */
 a {
-  color: hsla(203, 100%, 46%, 1);
+  color: hsla(0, 50%, 50%, 1);
   text-decoration: none;
 }
 
@@ -93,7 +95,7 @@ a:hover {
   font-style: italic;
 }
 .location+i{
-  color: hsla(203, 100%, 46%, 1);
+  color: hsla(0, 50%, 50%, 1);
 }
 .location+i:hover{
   animation: hue 1.5s linear infinite;
@@ -126,6 +128,14 @@ a:hover {
   90% {fill: hsla(270, 50%, 50%, 1);}
   100% {fill: hsla(0, 50%, 50%, 1);}
 }
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
 
 /* ============= FORK ME ON GITHUB =========== */
 .octicon {
@@ -134,7 +144,7 @@ a:hover {
   top: 0;
   border: 0;
   right: 0;
-  fill:hsla(203, 100%, 46%, 1);
+  fill:hsla(0, 50%, 50%, 1);
 }
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
