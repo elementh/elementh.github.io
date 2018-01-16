@@ -3,7 +3,7 @@
 html {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to top, hsla(0, 0%, 96%, 1) 0%, hsla(40, 4%, 95%, 1) 100%);
+  background-image: linar-gradient(to top, hsla(0, 0%, 96%, 1) 0%, hsla(40, 4%, 95%, 1) 100%);
 }
 body{
   font-family: 'Raleway', sans-serif;
