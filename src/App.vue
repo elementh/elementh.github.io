@@ -38,7 +38,6 @@ html {
   color: hsla(0, 0%, 13%, 1);
   margin-top: 60px;
 }
-
 /* ============= FORK ME ON GITHUB =========== */
 .octicon {
   color: hsla(0, 0%, 96%, 1);
