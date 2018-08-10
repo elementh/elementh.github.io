@@ -23,7 +23,7 @@ body{
 /* HEADER */
 header{
   order: 1;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 header h1{
   color: hsla(203, 100%, 46%, 1);
