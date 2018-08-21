@@ -92,10 +92,10 @@ a:hover {
   color: hsla(0, 0%, 13%, 1);
   font-style: italic;
 }
-.location+i{
+.hackathon i{
   color: hsla(203, 100%, 46%, 1);
 }
-.location+i:hover{
+.hackathon i:hover{
   animation: hue 1.5s linear infinite;
 }
 /* ANIMATIONS */
