@@ -1,12 +1,14 @@
-# [elementh.github.io](http://lucasmarino.me)</a>
+# [elementh.github.io](https://lucasmarino.me)</a>
 
-Hello there, this is the repository of my personal website.
+Hello there, this is the repository of my personal website. 
+
+It is really simple but also fast, and works well on mobile.
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2016 [Lucas Maximiliano Marino](http://lucasmarino.me) </a>
+Copyright (c) 2016 [Lucas Maximiliano Marino](https://lucasmarino.me) </a>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
