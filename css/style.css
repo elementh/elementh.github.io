@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
 /* HTML & BODY*/
 html {
   width: 100%;
@@ -7,7 +7,7 @@ html {
 }
 body{
   font-family: 'Raleway', sans-serif;
-  max-width: 600px;
+  max-width: 700px;
   text-align: center;
   margin: auto;
   display: flex;
