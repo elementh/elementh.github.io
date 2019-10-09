@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
 /* HTML & BODY*/
 html {
   width: 100%;
@@ -127,6 +128,19 @@ a:hover {
   100% {fill: hsla(0, 50%, 50%, 1);}
 }
 
+@media (prefers-color-scheme: dark) {
+  html {
+    background-image: none;
+    background-color: hsla(0, 0%, 7%, 1)
+  }
+  body {
+    color: hsla(0, 0%, 97%, 1);
+  }
+  .location {
+    color: hsla(0, 0%, 97%, 1);
+  }
+}
+
 /* ============= FORK ME ON GITHUB =========== */
 .octicon {
   color: hsla(0, 0%, 96%, 1);
@@ -165,6 +179,12 @@ a:hover {
 
   .github-corner .octo-arm {
     animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .octicon {
+    color: hsla(0, 0%, 7%, 1);
   }
 }
 /* =========================================== */
