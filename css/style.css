@@ -1,4 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Raleway-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Raleway-Light.ttf) format('truetype');
+}
+
 
 /* HTML & BODY*/
 html {
@@ -8,6 +21,7 @@ html {
 }
 body{
   font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   max-width: 700px;
   text-align: center;
   margin: auto;
