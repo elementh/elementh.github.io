@@ -1,14 +1,19 @@
-# [elementh.github.io](https://lucasmarino.me)</a>
+# elementh.github.io
 
-Hello there, this is the repository of my personal website. 
+Hello, you've arrived to the main repository for my website ([lucasmarino.me](https://lucasmarino.me)).
 
-It is really simple but also fast, and works well on mobile.
+It's a simple and light, and that's why it's also super fast. 
+Currently I host it on GitHub Pages, with cloudflare on front of that.
+
+By the way, [Lighthouse](https://pagespeed.web.dev/report?url=https%3A%2F%2Flucasmarino.me%2F) give it a 99 score on mobile and 100 on desktop, pretty neat.
+
+Don't forget to check the [manifesto](https://lucasmarino.me/manifesto.html).
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2016 [Lucas Maximiliano Marino](https://lucasmarino.me) </a>
+Copyright (c) 2016-2022 [Lucas Maximiliano Marino](https://lucasmarino.me)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
